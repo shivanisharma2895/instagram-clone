@@ -6,10 +6,10 @@
 
 #header {
     font-family: 'Satisfy', cursive;
-
+    width: 103px;
     font-size: 30px;
     color: white;
-    height: 20%;
+    height: 12%;
     margin-left: 20px;
     margin-top: 40px;
 }
@@ -20,8 +20,13 @@
     color: white;
     font-size: 20px;
     height: 60%;
-    gap: 20px;
+    gap: 25px;
     margin-left: 20PX;
+    cursor: pointer;
+}
+
+#side-menu :hover {
+    background-color: rgb(255, 255, 255, 0.2);
 }
 
 #footer {
@@ -32,6 +37,8 @@
     grid-template-columns: 1fr 200px;
     margin-top: 20px;
     align-items: center;
+    cursor: pointer;
+    margin-top: 80px;
 }
 
 #home {
@@ -42,11 +49,18 @@
 #hom {
     display: grid;
     grid-template-columns: 1fr 200px;
+    height: 80px;
+    align-content: center;
+    border-radius: .30rem;
+
 }
 
 #search {
     display: grid;
     grid-template-columns: 1fr 200px;
+    height: 80px;
+    align-content: center;
+    border-radius: .30rem;
 
 }
 
@@ -57,6 +71,9 @@
 #explore {
     display: grid;
     grid-template-columns: 1fr 200px;
+    height: 80px;
+    align-content: center;
+    border-radius: .30rem;
 
 }
 
@@ -67,6 +84,9 @@
 #msg {
     display: grid;
     grid-template-columns: 1fr 200px;
+    height: 80px;
+    align-content: center;
+    border-radius: .30rem;
 }
 
 #msgs {
@@ -76,6 +96,9 @@
 #noti {
     display: grid;
     grid-template-columns: 1fr 200px;
+    height: 80px;
+    align-content: center;
+    border-radius: .30rem;
 }
 
 #notifi {
@@ -85,6 +108,9 @@
 #create {
     display: grid;
     grid-template-columns: 1fr 200px;
+    height: 80px;
+    align-content: center;
+    border-radius: .30rem;
 }
 
 #crt {
@@ -98,8 +124,23 @@
 #profile {
     display: grid;
     grid-template-columns: 1fr 200px;
+    height: 80px;
+    align-content: center;
+    border-radius: .30rem;
 }
 
 #prfl {
+    align-self: center;
+}
+
+#reels {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    height: 80px;
+    align-content: center;
+    border-radius: .30rem;
+}
+
+#reel {
     align-self: center;
 }
