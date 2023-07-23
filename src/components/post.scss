@@ -1,0 +1,48 @@
+#post {
+    display: felx;
+    flex-direction: row;
+    width: 70%;
+    height: 60%;
+    border: 1px solid white;
+
+}
+
+#post-heading {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+}
+
+#post-pic {
+    display: block;
+    width: 100%;
+    height: 50%;
+
+}
+
+#icons {
+    width: 100%;
+    height: 5%;
+
+}
+
+#likes {
+    height: 5%;
+}
+
+#caption {
+    height: 5%;
+}
+
+#mor {
+    height: 5%;
+}
+
+#view {
+    height: 5%;
+}
+
+#comment {
+    height: 5%;
+}

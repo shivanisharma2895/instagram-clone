@@ -1,6 +1,8 @@
+import { postInfo } from "../data/post-data";
 import { storyData } from "../data/story-data";
 import { storiesData } from "../interface/stories-data";
 import "./main-panel.scss"
+import { Post } from "./post";
 
 
 
@@ -21,7 +23,7 @@ const MainPanel = () => {
                 <div id="story">
                     {storyData.map((storyData) => (<ProfileIcon name={storyData.name} icon={storyData.icon} />))}
                 </div>
-                <div id="post">post</div>
+                <div id="post">{postInfo.map((postData) => (<Post postIcon={postData.postIcon} postHeading={postData.postHeading} post={postData.post} likes={postData.likes} caption={postData.caption} more={postData.more} view={postData.view} addComment={postData.addComment} />))}</div>
             </div>
 
         </div>
