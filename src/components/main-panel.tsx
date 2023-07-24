@@ -2,7 +2,11 @@ import { postInfo } from "../data/post-data";
 import { storyData } from "../data/story-data";
 import { storiesData } from "../interface/stories-data";
 import "./main-panel.scss"
-import { Post } from "./post";
+import "./post.scss"
+import { postData } from "../interface/post-data";
+import { AiOutlineHeart } from "react-icons/ai"
+import { TbMessageCircle } from "react-icons/tb"
+import { VscBookmark } from "react-icons/vsc"
 
 
 
@@ -16,6 +20,21 @@ const ProfileIcon = (props: storiesData) => {
     )
 }
 
+const Post = (props: postData) => {
+    return (
+        <div id="post">
+            <div id="post-Heading"><img id="image" src={props.postIcon} alt="" />{props.postHeading}</div>
+            <div id="post-pic"><img id="image2" src={props.post} /></div>
+            <div id="icons"><AiOutlineHeart /><TbMessageCircle id="mssg" /><VscBookmark id="book-mark" /></div>
+            <div id="likes">{props.likes}</div>
+            <div id="captions">{props.caption}</div>
+            <div id="mor">{props.more}</div>
+            <div id="view">{props.view}</div>
+            <div id="comment">{props.addComment}</div>
+        </div>
+    );
+}
+
 const MainPanel = () => {
     return (
         <div id="main-panel">
@@ -23,7 +42,7 @@ const MainPanel = () => {
                 <div id="story">
                     {storyData.map((storyData) => (<ProfileIcon name={storyData.name} icon={storyData.icon} />))}
                 </div>
-                <div id="post">{postInfo.map((postData) => (<Post postIcon={postData.postIcon} postHeading={postData.postHeading} post={postData.post} likes={postData.likes} caption={postData.caption} more={postData.more} view={postData.view} addComment={postData.addComment} />))}</div>
+                <div id="about-posts">{postInfo.map((postInfo) => (<Post postIcon={postInfo.postIcon} postHeading={postInfo.postHeading} post={postInfo.post} likes={postInfo.likes} caption={postInfo.caption} more={postInfo.more} view={postInfo.view} addComment={postInfo.addComment} />))}</div>
             </div>
 
         </div>

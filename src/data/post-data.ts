@@ -4,7 +4,7 @@ export const postInfo = [
         postHeading: "luaghingcolors  .22h",
         post: "https://tse3.mm.bing.net/th?id=OIP.JQpU9Orrf-ApH6W6FNAYNAHaHa&pid=Api&P=0&h=180",
         likes: "23,987 likes",
-        caption: "Theif crying in corner",
+        caption: " laughingcolors  Theif crying in corner",
         more: "more",
         view: "View all 199 comments",
         addComment: "Add a comment..."
@@ -15,7 +15,7 @@ export const postInfo = [
         postHeading: "shanaya_23",
         post: "https://i.pinimg.com/originals/dd/62/0e/dd620e891a5b4bb0caa7867259593958.jpg",
         likes: "1,468 likes",
-        caption: "Hola...",
+        caption: " shanaya_23   Hola...",
         more: "more",
         view: "View all 43 comments",
         addComment: "Add a comment..."
@@ -26,7 +26,7 @@ export const postInfo = [
         postHeading: "theLolthingzzzz .3h",
         post: "https://tse2.mm.bing.net/th?id=OIP.2wVEMo_1HWRZly9Gmc2OUwHaFM&pid=Api&P=0&h=180",
         likes: "78,934 likes",
-        caption: "tag that person..",
+        caption: " theLolthingzzzz   tag that person..",
         more: "more",
         view: "View all 87 comments",
         addComment: "Add a comment..."
