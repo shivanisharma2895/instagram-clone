@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: row;
     background-color: black;
-    margin-left: 50px;
+    margin-left: 450px;
 
 }
 
@@ -39,7 +39,9 @@
     border: 3px solid pink;
 }
 
-
+#post {
+    height: 50%;
+}
 
 
 #about-posts {
@@ -47,9 +49,8 @@
     flex-direction: row;
     width: 70%;
     height: 60%;
-    // border: 1px solid white;
-    margin-left: 200px;
-    align-content: center;
+    margin-left: 500px;
+
 }
 
 
@@ -63,7 +64,16 @@
     font-size: 14px;
     align-self: center;
     margin-bottom: 20px;
+
+
 }
+
+#line-dot {
+    align-self: flex-start;
+
+}
+
+
 
 #image2 {
     width: 90%;
@@ -72,13 +82,51 @@
 }
 
 #icons {
+
     margin-left: 10px;
 }
 
+#heart {
+    width: 30px;
+    height: 30px;
+}
+
 #mssg {
+    width: 30px;
+    height: 30px;
     margin-left: 10px;
 }
 
 #book-mark {
-    margin-left: 275px;
+    width: 35px;
+    height: 25px;
+    margin-left: 350px;
+}
+
+#likes {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#captions {
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+#mor {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#view {
+    font-size: 15px;
+    margin-left: 10px;
+    color: gray;
+}
+
+#comment {
+    font-size: 15px;
+    color: gray;
+    margin-left: 10px;
 }

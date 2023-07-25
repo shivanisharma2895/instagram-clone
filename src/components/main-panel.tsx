@@ -7,6 +7,7 @@ import { postData } from "../interface/post-data";
 import { AiOutlineHeart } from "react-icons/ai"
 import { TbMessageCircle } from "react-icons/tb"
 import { VscBookmark } from "react-icons/vsc"
+import { HiOutlineDotsHorizontal } from "react-icons/hi"
 
 
 
@@ -23,9 +24,9 @@ const ProfileIcon = (props: storiesData) => {
 const Post = (props: postData) => {
     return (
         <div id="post">
-            <div id="post-Heading"><img id="image" src={props.postIcon} alt="" />{props.postHeading}</div>
-            <div id="post-pic"><img id="image2" src={props.post} /></div>
-            <div id="icons"><AiOutlineHeart /><TbMessageCircle id="mssg" /><VscBookmark id="book-mark" /></div>
+            <div id="post-Heading"><img id="image" src={props.postIcon} alt="" />{props.postHeading}<HiOutlineDotsHorizontal id="line-dot" /></div>
+            <div id="post-pic"><img id="image2" src={props.post} alt="" /></div>
+            <div id="icons"><AiOutlineHeart id="heart" /><TbMessageCircle id="mssg" /><VscBookmark id="book-mark" /></div>
             <div id="likes">{props.likes}</div>
             <div id="captions">{props.caption}</div>
             <div id="mor">{props.more}</div>

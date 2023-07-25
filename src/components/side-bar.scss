@@ -2,7 +2,7 @@
     height: 100vh;
     background-color: #000;
     border-right: 0.5px solid gray;
-
+    position: fixed;
 }
 
 #header {
@@ -44,15 +44,16 @@
 
 #home {
     align-self: center;
-
+    margin-right: 10px;
 }
 
 #hom {
     display: grid;
     grid-template-columns: 1fr 200px;
     height: 80px;
-    align-content: center;
+
     border-radius: .30rem;
+
 
 }
 
@@ -60,7 +61,7 @@
     display: grid;
     grid-template-columns: 1fr 200px;
     height: 80px;
-    align-content: center;
+
     border-radius: .30rem;
 
 }
@@ -72,9 +73,8 @@
 #explore {
     display: grid;
     grid-template-columns: 1fr 200px;
-    height: 80px;
-    align-content: center;
     border-radius: .30rem;
+
 
 }
 
@@ -85,8 +85,6 @@
 #msg {
     display: grid;
     grid-template-columns: 1fr 200px;
-    height: 80px;
-    align-content: center;
     border-radius: .30rem;
 }
 
@@ -98,7 +96,6 @@
     display: grid;
     grid-template-columns: 1fr 200px;
     height: 80px;
-    align-content: center;
     border-radius: .30rem;
 }
 
@@ -110,7 +107,6 @@
     display: grid;
     grid-template-columns: 1fr 200px;
     height: 80px;
-    align-content: center;
     border-radius: .30rem;
 }
 
@@ -126,7 +122,6 @@
     display: grid;
     grid-template-columns: 1fr 200px;
     height: 80px;
-    align-content: center;
     border-radius: .30rem;
 }
 
@@ -138,7 +133,6 @@
     display: grid;
     grid-template-columns: 1fr 200px;
     height: 80px;
-    align-content: center;
     border-radius: .30rem;
 }
 

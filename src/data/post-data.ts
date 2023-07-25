@@ -14,7 +14,7 @@ export const postInfo = [
         postIcon: "https://i.pinimg.com/originals/e9/75/e2/e975e26becd44d8a0cecb1f05bac5cc3.jpg",
         postHeading: "shanaya_23",
         post: "https://i.pinimg.com/originals/dd/62/0e/dd620e891a5b4bb0caa7867259593958.jpg",
-        likes: "1,468 likes",
+        likes: "liked by shalini_44 and 1,435 others",
         caption: " shanaya_23   Hola...",
         more: "more",
         view: "View all 43 comments",
