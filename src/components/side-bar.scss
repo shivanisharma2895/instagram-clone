@@ -1,6 +1,7 @@
 #side-bar {
+    width: 250px;
     height: 100vh;
-    background-color: #000;
+    background-color: black;
     border-right: 0.5px solid gray;
     position: fixed;
 }
@@ -19,11 +20,13 @@
     display: flex;
     flex-direction: column;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     height: 60%;
     gap: 25px;
     margin-left: 20PX;
     cursor: pointer;
+    text-align: start;
+    justify-content: baseline;
 }
 
 #side-menu :hover {
@@ -31,7 +34,7 @@
 }
 
 #footer {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     margin-left: 20px;
     display: grid;
@@ -44,30 +47,30 @@
 
 #home {
     align-self: center;
-    margin-right: 10px;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+
+
 }
 
 #hom {
     display: grid;
     grid-template-columns: 1fr 200px;
-    height: 80px;
-
     border-radius: .30rem;
-
-
 }
 
 #search {
     display: grid;
     grid-template-columns: 1fr 200px;
-    height: 80px;
-
     border-radius: .30rem;
 
 }
 
 #srch {
-    align-self: center;
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
 }
 
 #explore {
@@ -80,6 +83,9 @@
 
 #explr {
     align-self: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
 }
 
 #msg {
@@ -90,20 +96,24 @@
 
 #msgs {
     align-self: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
 }
 
-#noti {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    height: 80px;
-    border-radius: .30rem;
-}
+
 
 #notifi {
     align-self: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
 }
 
-#create {
+#create,
+#noti,
+#profile,
+#reels {
     display: grid;
     grid-template-columns: 1fr 200px;
     height: 80px;
@@ -112,30 +122,32 @@
 
 #crt {
     align-self: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
 }
 
 #more {
     align-self: center;
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
 }
 
-#profile {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    height: 80px;
-    border-radius: .30rem;
-}
+
 
 #prfl {
     align-self: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
 }
 
-#reels {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    height: 80px;
-    border-radius: .30rem;
-}
+
 
 #reel {
     align-self: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
 }
